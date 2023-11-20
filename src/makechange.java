@@ -12,7 +12,7 @@ public class makechange {
 		
 		System.out.print("Please enter the sale amount: $");
 		double salePrice = sc.nextDouble();
-		System.out.print("Please enter the tendered amount: $");
+		System.out.print("Please enter the received amount: $");
 		double cashReceived = sc.nextDouble();
 		
 		makeChange(salePrice, cashReceived);
